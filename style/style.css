@@ -56,8 +56,8 @@ h1{
 }
 
 /* midea apari for mobile viveas*/
-@media (min-width: 100px) and (max-width: 576px){
-    section{
-        padding: 0;
-        margin: 0;
+@media screen (max-width:576px;){
+    .logo ul{
+        display: table-column;
+    }
 }
